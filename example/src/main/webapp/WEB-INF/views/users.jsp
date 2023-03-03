@@ -22,6 +22,6 @@
         </tr>
       </c:forEach>
     </table>
-    <a href="/home">홈페이지 이동</a>
+    <a href="/">홈페이지 이동</a>
   </body>
 </html>

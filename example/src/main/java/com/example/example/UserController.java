@@ -29,7 +29,7 @@ public class UserController {
     public String loginUser(User user) {
         User existingUser = userRepository.findByUsername(user.getUsername());
         if (existingUser != null && existingUser.getPassword().equals(user.getPassword())) {
-            return "redirect:/home";
+            return "redirect:/";
         } else {
             return "login";
         }
